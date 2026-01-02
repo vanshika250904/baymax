@@ -2,7 +2,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 
 # 1️⃣ Load dataset
-dataset = load_dataset("json", data_files="C:/Users/hp/Downloads/Baymax/baymax/engine/baymax_dataset.jsonl")
+dataset = load_dataset("json", data_files="C:/Users/hp/Dekstop/Baymax/baymax/engine/baymax_dataset.jsonl")
 
 # 2️⃣ Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
