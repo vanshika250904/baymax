@@ -23,7 +23,7 @@ if os.name == 'nt':
 
 
 # Load your fine-tuned model
-MODEL_PATH = "C:\Users\hp\Desktop\Baymax\baymax\control\wake_word\Jarvis_en_windows_v3_0_0.ppn"
+MODEL_PATH = "C:/Users/hp/Downloads/Baymax/baymax/control/wake_word/Jarvis_en_windows_v3_0_0.ppn"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
 model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, local_files_only=True)
 
@@ -33,7 +33,7 @@ recognizer = sr.Recognizer()
 
 porcupine = pvporcupine.create(
     access_key=os.getenv("ACCESS_KEY"),
-    keyword_paths=["C:/Users/Shreyansh Singh/Desktop/Baymax/baymax/control/wake_word/Jarvis_en_windows_v3_0_0.ppn"]
+    keyword_paths=["C:/Users/hp/Downloads/Baymax/baymax/control/wake_word/Jarvis_en_windows_v3_0_0.ppn"]
 ) # later replace with “hey baymax”
 
 
