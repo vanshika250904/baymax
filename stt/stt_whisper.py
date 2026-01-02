@@ -1,7 +1,7 @@
 import os
 
 # Force ffmpeg path
-os.environ["PATH"] += os.pathsep + r"C:\Users\hp\Downloads\baymaxfiles\ffmpeg-7.1.1-essentials_build\ffmpeg-7.1.1-essentials_build\bin"
+os.environ["PATH"] += os.pathsep + r"C:\Users\hp\Downloads\ffmpeg-7.1.1-essentials_build\ffmpeg-7.1.1-essentials_build\bin"
 
 import numpy as np
 import sounddevice as sd
