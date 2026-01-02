@@ -23,7 +23,7 @@ if os.name == 'nt':
 
 
 # Load your fine-tuned model
-MODEL_PATH = "C:/Users/Shreyansh Singh/Desktop/Baymax/baymax/control/baymax_finetuned"
+MODEL_PATH = "C:\Users\hp\Desktop\Baymax\baymax\control\wake_word\Jarvis_en_windows_v3_0_0.ppn"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
 model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, local_files_only=True)
 
